@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Туризм</title>
+
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f5f5f5;
+color: #333;
+}
+.header {
+background-color: #007BFF;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+}
+.header .title {
+font-size: 24px;
+font-weight: bold;
+}
+.header .phone {
+font-size: 18px;
+}
+.hero-image {
+width: 100%;
+height: 300px;
+background: url('https://source.unsplash.com/1600x400/?nature,tourism') no-repeat center center/cover;
+}
+.main-info {
+padding: 30px;
+font-size: 18px;
+line-height: 1.6;
+text-align: center;
+font-weight: 500;
+}
+.city-select {
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.cities {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+padding: 0 30px 50px 30px;
+}
+.city {
+background-color: white;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+transition: transform 0.2s;
+}
+.city:hover {
+transform: scale(1.03);
+}
+.city img {
+width: 100%;
+height: 120px;
+object-fit: cover;
+}
+.city-name {
+padding: 10px;
+font-weight: bold;
+}
+@media (max-width: 900px) {
+.cities {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+</style></head>
+<body>
+<div class="header">
+<div class="phone">+7 (777) 123-45-67</div>
+<div class="title">Туризм</div>
+<div style="width: 150px;"></div>
+</div><img style="width: 100%; height: 400px;" alt="да" src="Images/Glav.jpg"><div class="main-info" id="info-block"><font size="+1">
+Ни для кого не секрет, что люди любят отдыхать в других странах,
+особенно в период каникул и отпусков. Многие беспечно едут отдыхать,
+даже не задумываясь о том, что их там поджидает. В первую очередь,
+перед тем как ехать в другую страну, нужно знать: далекая страна – это
+как другая планета, со своей флорой, фауной, климатом и болезнями.<br></font><font size="+1"><span style="font-style: italic; font-weight: bold;">Поэтому мы поможем вам избежать рисков заболевания в других странах</span></font>
+</div>
+<div class="city-select">Выберите город, в который собираетесь отправиться:</div>
+<div class="cities">
+<div class="city">
+<a href="Turkey.html"><img style="border: 0px solid ; width: 355px; height: 277px;" src="Images/Turkey.jpeg" alt="Турция"></a>
+<div class="city-name"><a href="Turkey.html">Турция</a></div>
+</div>
+<div class="city">
+<a href="Egypt.html"><img style="border: 0px solid ; width: 355px; height: 277px;" src="Images/Egypt.jpg" alt="Египет"></a>
+<div class="city-name"><a href="Egypt.html">Египет</a></div>
+</div>
+<div class="city">
+<a href="OAE.html"><img style="border: 0px solid ; width: 355px; height: 277px;" src="Images/OAE.jpeg" alt="Париж"></a>
+<div class="city-name"><a href="OAE.html">Обьединенные Арабские Эмираты</a></div>
+</div>
+<div class="city">
+<a href="Vethnam.html"><img style="border: 0px solid ; width: 355px; height: 277px;" src="Images/Vieham.jpeg" alt="Рим"></a>
+<div class="city-name"><a href="Vethnam.html">Вьетнам</a></div>
+</div>
+<div class="city">
+<a href="France.html"><img style="border: 0px solid ; width: 355px; height: 277px;" src="Images/France.jpeg" alt="Франция"></a>
+<div class="city-name"><a href="France.html">Франция</a><br></div>
+</div>
+<div class="city">
+<img style="width: 355px; height: 277px;" src="Images/Tailand.jpeg" alt="Тайланд">
+<div class="city-name">Тайланд</div>
+</div>
+<div class="city">
+<img style="width: 355px; height: 277px;" src="Images/China.jpeg" alt="Китай">
+<div class="city-name">Китай</div>
+</div>
+<div class="city">
+<img style="width: 355px; height: 277px;" src="Images/India.jpeg" alt="Индия">
+<div class="city-name">Индия</div>
+</div>
+<div class="city">
+<img style="width: 355px; height: 277px;" src="Images/Gruzia.jpeg" alt="Грузия">
+<div class="city-name">Грузия</div>
+</div>
+<div class="city">
+<img style="width: 355px; height: 277px;" src="Images/Maldivi.jpeg" alt="Мальдивы">
+<div class="city-name">Мальдивы</div>
+</div>
+</div>
+</body></html>
